@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video KYC</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    </head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html" class="logo"><img src="./assets/bulb-removebg-preview.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./about.html" target="_blank">ABOUT US</a></li>
+                    <li><a href="#course" onclick="navigateToSection(click, 'course')">CATEGORIES</a></li>
+                    <li><a href="#offerings" onclick="navigateToSection(click, 'offerings')">OFFERINGS</a></li>
+                    <li><a href="#highlights" onclick="navigateToSection(click, 'highlights')">HIGHLIGHTS</a></li>
+                    <li><a href="./contact-us.html" target="_blank">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1><strong>" <i class="fa-solid fa-book"></i> Edulink: The Academic Collaboration Hub <i class="fa fa-link"></i> "</strong></i></h1>
+            <p>Centralized platform to unite students and faculties of SRM University and diverse universities/colleges all over the nation,<br>focusing on projects, research papers, and academic documentation.
+            </p><br>
+            <a href="./about.html" class="btn-hero">Visit Us To know More</a>
+        </div>
+    </section>
+
+    <section class="course" id="course">
+        <h1>What is Video KYC ?</h1><br>
+        <!-- <p class="three">The top three categories for research papers and thesis papers depends heavily on your interests, academic background, & the requirements of your field of study.
+            However, here are three broad categories that often generate significant interest & have ample research  opportunities.</p> -->
+
+        <div class="row">
+            <div class="course-col">
+                <!-- <h3>Technology & Innovation</h3> -->
+                <p>KYC is a process used by financial institutions to verify your identity. Traditionally, 
+                    there were two ways to complete this process. Either a Bank representative would visit you and collect your 
+                    identification documents, or you would have to visit the bank branch to complete your KYC in person. To do 
+                    away with this physical verification of documents, the RBI now allows Regulated entities to digitally verify 
+                    customers through Video KYC. This means that you can opt for a video KYC based account opening with the Bank, 
+                    during which the Bank official will perform identification checks along with capturing your photograph and verifying 
+                    your PAN card. Through this contactless audio-visual interaction, you can open a Savings Bank account without physically visiting the Bank. To avail Video KYC, you need to be a resident of India, above 18 years of age and physically present in India. </p>
+            </div>
+
+        <!-- <div class="row">
+            <div class="course-col">
+                <h3>Health & Medicine</h3>
+                <p>Delve into human health, disease mechanisms, medical treatments, and public health policies. Research topics span epidemiology, mental health, infectious diseases, and healthcare
+                     access, addressing critical issues such as genetics in cancer treatment and mental health interventions.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Environmental Science & Sustainability</h3>
+                <p> Understand ecosystems, climate change, renewable energy, and sustainable development. Topics include environmental policy, biodiversity conservation, climate adaptation, and urban
+                     planning for sustainable cities, aiming to tackle environmental challenges and foster a sustainable future.</p>
+            </div> -->
+        </div>
+    </section>
+
+    <!--New Section RESEARCH PAPERS-->
+
+    <section class="research" id="offerings">
+        <h3>Requirements for Video KYC</h3>
+        <p>Video KYC requirements encompass <strong>valid ID documents</strong> like <strong>PAN card</strong>, <strong>signature verification</strong>, <strong>stable internet connection</strong>, <strong>compatible device</strong> with camera/microphone, <strong>clear visuals</strong>, and <strong>privacy measures</strong>. Compliance with <strong>legal requirements</strong>, additional <strong>authentication</strong> (e.g., <strong>OTP</strong>), and verification officer <strong>training</strong> are essential. <strong>Data protection</strong> and <strong>confidentiality</strong> are paramount. Officers must identify <strong>fraud indicators</strong> and follow <strong>compliance guidelines</strong>. Customer surroundings should be <strong>well-lit</strong> for clear identification. Adherence to <strong>strict security protocols</strong> during the session is crucial.</p>
+             <div class="rows">
+                <div class="research-col">
+                    <img src="./assets/pan.jpg">
+                    <div class="layer">
+                        <h3><a href="https://www.srmist.edu.in/research/student-publications/" target="_blank">PAN-CARD</a></h3>
+                    </div>
+                </div>
+            
+                <div class="research-col">
+                    <img src="./assets/stable.webp">
+                    <div class="layer">
+                        <h3><a href="https://www.srmist.edu.in/library/online-resources/" target="_blank">INTERNET</a></h3>
+                    </div>
+                </div>
+            
+                <div class="research-col">
+                    <img src="./assets/sign.png">
+                    <div class="layer">
+                        <h3><a href="https://www.srmist.edu.in/research/projects/" target="_blank">SIGNATURE</a></h3>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!--FACILITIES-->
+    <!-- <section class="facilities">
+        <h1>Other Highlights</h1>
+        <p>
+            Explore our vibrant community support system, seamlessly integrated across Instagram, Telegram, WhatsApp groups, and Discord channels. 
+            Engage with like-minded individuals, access valuable resources, and foster meaningful connections to enrich your journey 
+            with us.</p>
+    
+        <div class="rows">
+            <div class="facilities col">
+                <img src="./assets/1.png">
+                <h3>Instagram</h3>
+            </div>
+
+            <div class="facilities col">
+                <img src="./assets/2.png">
+                <h3>Discord</h3>
+            </div>
+
+            <div class="facilities col">
+                <img src="./assets/3.png">
+                <h3>WhatsApp</h3>
+            </div>
+        </div>
+    
+    </section> -->
+
+    <section class="facilities" id="highlights">
+        <h1>Our Offline Branches</h1>
+        <p>
+            "Dear valued customers, if you are experiencing difficulties with the Video KYC process, we encourage you to visit your nearest branch for physical KYC verification. Our dedicated staff members are available to assist you in completing the verification process seamlessly. Your convenience and satisfaction are our top priorities, and we are committed to providing you with the support you need. Thank you for choosing our Bank, and we look forward to serving you at our branch."
+        </p>
+    
+        <div class="rows2">
+            <div class="facilities-col">
+                <a href="https://www.instagram.com/srmites25/" target="_blank"><img src="./assets/bank.jpg"></a>
+                <h3><a href="https://www.instagram.com/srmites25/">Mumbai, Maharashtra</a></h3>
+                <p>Visit our branches :
+                    1. Nariman Point<br>
+                    2. Bandra Kurla Complex (BKC)<br>
+                    3. Lower Parel
+                    4. Fort
+                    5. Andheri (East)</p>
+            </div>
+    
+            <div class="facilities-col">
+                <a href="https://discord.gg/fCrFpRmgC3"><img src="./assets/bank.jpg"></a>
+                <h3><a href="https://discord.gg/fCrFpRmgC3">Bengaluru, Karnataka</a></h3>
+                <p>Visit our branches :
+                    1. MG Road<br>
+                    2. Electronic City<br>
+                    3. Whitefield
+                    4. Koramangala
+                    5. Indiranagar</p>
+            </div>
+    
+            <div class="facilities-col">
+                <a href="https://whatsapp.com/channel/0029VaNK7zdGzzKTGZDz9Y04"><img src="./assets/bank.jpg"></a>
+                <h3><a href="https://whatsapp.com/channel/0029VaNK7zdGzzKTGZDz9Y04">New Delhi<br>National Capital Region (NCR)</a></h3>
+                <p>Stay connected with instant messaging and share insights through our WhatsApp group.</p>
+            </div>
+        </div>
+    </section>
+    <br><br>
+
+    <!--Collabration-->
+
+    <section class="contact">
+        <h1>Enjoy the offerings and kindly support us for making the offerings top-notch!!!</h1>
+        <a href="./contact-us.html" target="_blank" class="btn-hero">CONTACT US</a>
+    </section>
+
+
+    
+
+    <!--JAVASCRIPT CODE-->
+    <script>
+        var navLinks= document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+
+        function navigateToSection(click, course) {
+            click.preventDefault(); // Prevent the default action of the link
+  
+            var section = document.getElementById(course); // Get the section element by its ID
+  
+            if (section) {
+                section.scrollIntoView({ behavior: "smooth", block: "start" }); // Scroll to the section
+            }
+        }
+
+        function navigateToSection(click, offerings) {
+            click.preventDefault(); // Prevent the default action of the link
+  
+            var section = document.getElementById(offerings); // Get the section element by its ID
+  
+            if (section) {
+                section.scrollIntoView({ behavior: "smooth", block: "start" }); // Scroll to the section
+            }
+        }
+       
+        function navigateToSection(click, highlights) {
+            click.preventDefault(); // Prevent the default action of the link
+  
+            var section = document.getElementById(highlights); // Get the section element by its ID
+  
+            if (section) {
+                section.scrollIntoView({ behavior: "smooth", block: "start" }); // Scroll to the section
+            }
+        }
+
+    </script>
+
+    <!--footer-->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Welcome to our contact us page! We're here to assist you. Whether you have inquiries, feedback, or collaboration proposals,
+             we're eager to hear from you. Feel free to reach out through the provided contact form, email, or phone number. Your messages
+              are valuable to us, and we strive to respond promptly to ensure your needs are met. Thank you for choosing to connect with us!
+        </p>
+        <div class="icons">
+            <a href="https://www.instagram.com/sumithsai004?igsh=czAzZTkwNjBjM2Zh" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/sumithsai2" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/sumith-sai-6b350121b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/@sumithsai6905" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.github.com/SUMITHSAI" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.hackerrank.com/profile/RA2111028010164" target="_blank"><i class="fa-brands fa-hackerrank"></i></a>
+        </div>
+        <p>Made with <i class="fa fa-heart"></i> by Koraboina Sumith Sai</p>
+    </section>
+</body>
+</html>

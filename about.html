@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edu Link</title>
+    <link rel="stylesheet" href="styles-about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    </head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html" class="logo"><img src="./assets/bulb-removebg-preview.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html" target="_blank">HOME</a></li>
+                    <li><a href="./about.html">ABOUT US</a></li>
+                    <li><a href="./index.html#course" target="_blank">CATEGORIES</a></li>
+                    <li><a href="./index.html#offerings" target="_blank">OFFERINGS</a></li>
+                    <li><a href="./index.html#highlights" target="_blank">HIGHLIGHTS</a></li>
+                    <li><a href="./contact-us.html" target="_blank">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us<img src="./assets/bulb-removebg-preview.png" class="new"></h1>
+    </section>
+
+    <!--About Us Content-->
+    <section class="about-us">
+        <div class="rows">
+            <div class="about-col">
+                <h1><i class="fa fa-book"></i> Empowering Academic Excellence</h1>
+                <p>Welcome to our online integrated platform dedicated to fostering academic excellence and innovation among students and faculties of SRM Universities and various institutions across the country. We are committed to providing a centralized hub for projects, research papers, and other academic documentations undertaken by the academic community.
+
+                </p><h1><i class="fa fa-book"></i> Our Mission: Fueling Innovation, Fostering Collaboration</h1>
+                    
+                <p>At our core, we believe that innovation is the cornerstone of progress in education. Students and faculties invest significant effort and creativity into their projects, research, and academic pursuits. Our mission is to provide a common knowledge platform that not only facilitates the sharing of ideas but also upholds academic integrity through robust plagiarism detection mechanisms.
+                    
+                    </p><h1><i class="fa-solid fa-book"></i> Hub of Knowledge and Collaboration</h1>
+                    
+                    <p>Our platform serves as a dynamic repository of projects and research works undertaken by students and faculties in technical and higher educational institutes 
+                        nationwide. By aggregating diverse academic endeavors, we create a rich tapestry of knowledge accessible to the entire student community.</p>
+                <a href="" class="red-btn">EXPLORE NOW</a>
+            </div>
+
+            <div class="about-col">
+                <img src="./assets/about.jpg" class="num1">
+                <img src="./assets/about2.jpg" class="mul">
+                <img src="./assets/book.jpg" class="mul">
+                <img src="./assets/about3.jpg" class="mul">
+                <img src="./assets/about 4.jpg" class="mul">
+                <img src="./assets/about5.jpg" class="mul">
+            </div>
+        </div>
+    </section>
+
+
+    
+
+    <!--JAVASCRIPT CODE-->
+    <script>
+        var navLinks= document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+
+    </script>
+
+    <!--footer-->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Welcome to our contact us page! We're here to assist you. Whether you have inquiries, feedback, or collaboration proposals,
+             we're eager to hear from you. Feel free to reach out through the provided contact form, email, or phone number. Your messages
+              are valuable to us, and we strive to respond promptly to ensure your needs are met. Thank you for choosing to connect with us!
+        </p>
+        <div class="icons">
+            <a href="https://www.instagram.com/sumithsai004?igsh=czAzZTkwNjBjM2Zh" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/sumithsai2" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/sumith-sai-6b350121b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.youtube.com/@sumithsai6905" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.github.com/SUMITHSAI" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.hackerrank.com/profile/RA2111028010164" target="_blank"><i class="fa-brands fa-hackerrank"></i></a>
+        </div>
+        <p>Made with <i class="fa fa-heart"></i> by Koraboina Sumith Sai</p>
+    </section>
+</body>
+</html>
