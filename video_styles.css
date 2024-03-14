@@ -1,0 +1,20 @@
+#video-container {
+    display: flex;
+}
+
+video {
+    width: 50%;
+    margin: 10px;
+}
+
+#start-call-btn, #end-call-btn{
+    margin:0 10px;
+    /* margin-top:20px; */
+    display: inline-block;
+}
+
+#app{
+    text-align:center;
+    margin-top:20px;
+}
+

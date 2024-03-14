@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Video KYC</title>
+    <link rel="stylesheet" href="video_styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Online Video KYC</h1>
+        <div id="video-container">
+            <video id="local-video" autoplay></video>
+            <canvas id="canvas" style="display: none;"></canvas>
+        </div>
+        <div id="button-container">
+            <button id="start-call-btn">Start Call</button>
+            <button id="end-call-btn">End Call</button>
+            <button id="capture-btn">Capture Document</button>
+        </div>
+        <p id="location"></p>
+    </div>
+    <script src="client.js"></script>
+</body>
+</html>

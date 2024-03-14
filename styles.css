@@ -24,7 +24,14 @@
     background-size: cover;
     position: relative;
 }   
+.facilities .num{
+margin-top:100px;
+}
 
+.facilities .num .red-btn{
+    padding-left:45%;
+    padding-right:45%
+}
 nav{
     display:flex;
     justify-content: space-between;
